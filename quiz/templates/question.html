@@ -9,21 +9,18 @@
 		<link rel="stylesheet" href="/static/quizstyle.css">
 	</head>
 	<body>
-		<h1>Första frågan</h1>
+		<h1>{{ question_number }}. {{ question }}</h1>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-			<div class="question"> 
-				Vad betyder lorem ipsum?
-			</div>
-			</p>
 	    <div class="anwers">
+	    	<p>{{ answer1 }}</p>
+			<p>{{ answer2 }}</p>
+			<p>{{ answer3 }}</p>
 	    	<form> 
 				<input type="radio" name="gender" value="male" checked> Male<br>
             	<input type="radio" name="gender" value="female"> Female<br>
             	<input type="radio" name="gender" value="other"> Other
 			</form>
 		</div>
-			</form>
-			</div>
-		</body>
-		</html>
+	</body>
+	</html>
