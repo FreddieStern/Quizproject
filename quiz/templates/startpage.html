@@ -25,7 +25,9 @@
 		<div class="mylist"> 
 			<ul>
 				{% for quiz in quizzes %}
-				<li>{{quiz.name}}</li>
+					<li><a href="{% url 'quiz_page' quiz.quiz_number %}">
+						{{ quiz.name }}
+					</a></li>
 				{% endfor %}
 			</ul>
 		</div>
