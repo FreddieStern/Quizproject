@@ -9,12 +9,10 @@
 		<link rel="stylesheet" href="/static/quizstyle.css">
 	</head>
 	<body>
-		<h1>QUIZZET</h1>
+		<h1>{{ quiz.name }}</h1>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-		<p>
-			Du har valt Quiz 1. Tryck nedan för att starta! 
-		</p>
+		<p>{{ quiz.description }}</p>
 			<input type="starta" name="starta" id="starta" value="Starta Quiz" class="btn" />
 			</div>
 		</body>
