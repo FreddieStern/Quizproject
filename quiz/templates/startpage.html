@@ -23,15 +23,10 @@
 			Detta är en sida med 3 olika quiz!
 		</p>
 		<div class="mylist"> 
-		<!-- <p>
-			<div class="listheader"> 
-			Quiz att välja mellan: 
-		</div>
-		</p> -->
 			<ul>
-				<li>Quiz 1</li>
-				<li>Quiz 2</li>
-				<li>Quiz 3</li>
+				{% for quiz in quizzes %}
+				<li>{{quiz.name}}</li>
+				{% endfor %}
 			</ul>
 		</div>
 		<p>
