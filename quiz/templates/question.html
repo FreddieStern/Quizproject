@@ -14,14 +14,16 @@
 <script src="js/bootstrap.min.js"></script>
 		<br>
 		<br>
-	    <div class="answers">
+		<div class="options">
 	    	<form action="{% url 'answer_page' quiz.quiz_number question_number %}" method="post"> 
 				{% csrf_token %}
-				<input type="radio" name="answer" value="1" checked> {{ answer1 }} 
+				<input type="radio" name="answer" class="option-input radio" value="1" checked> {{ answer1 }} 
 				<br>
-				<input type="radio" name="answer" value="2" > {{ answer2 }}
 				<br>
-				<input type="radio" name="answer" value="3" > {{ answer3 }}
+				<input type="radio" name="answer" class="option-input radio" value="2" > {{ answer2 }}
+				<br>
+				<br>
+				<input type="radio" name="answer" class="option-input radio" value="3" > {{ answer3 }}
 				<br>
 				<br>
 				<button type="submit" > Nästa fråga </button>
