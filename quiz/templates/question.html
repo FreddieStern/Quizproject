@@ -15,21 +15,17 @@
 		<br>
 		<br>
 	    <div class="answers">
-	    	<!-- <p>{{ answer1 }}</p>
-			<p>{{ answer2 }}</p>
-			<p>{{ answer3 }}</p> -->
-	    	<form> 
-				<input type="radio" name="fråga" value="svar" checked> {{ answer1 }}<br>
+	    	<form action="{% url 'answer_page' quiz.quiz_number question_number %}" method="post"> 
+				{% csrf_token %}
+				<input type="radio" name="answer" value="1" checked> {{ answer1 }} 
 				<br>
-				<input type="radio" name="fråga" value="svar" checked> {{ answer2 }}<br>
+				<input type="radio" name="answer" value="2" > {{ answer2 }}
 				<br>
-				<input type="radio" name="fråga" value="svar" checked> {{ answer3 }}<br>
+				<input type="radio" name="answer" value="3" > {{ answer3 }}
+				<br>
+				<br>
+				<button type="submit" > Nästa fråga </button>
 			</form>
 		</div>
-		<br>
-		<br>
-<p><a href="{% url 'completed_page' quiz_number %}">
-	Nästa
-</a></p>	
 	</body>
 	</html>
