@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
 body {
-	/*/*background-image: url("https://i.imgur.com/2PxpGQb.jpg");*/
-	/*background-image: tryckpress.jpg;
+	background-image: url("https://i.imgur.com/2PxpGQb.jpg");
+/*	background-image: tryckpress.jpg;
 	padding-left: 40px;
 	padding-right: 40px;*//*
-	background-color: rgb(179, 145, 229);*/*/
+	background-color: rgb(179, 145, 229);*/
 }
 
-img {
+/*img {
 	background-image: tryckpress.jpg;
 	width: 100%;
-}
+}*/
 
 a {
 	color: white;
