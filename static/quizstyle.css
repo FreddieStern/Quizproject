@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
 body {
-	background-image: url("https://i.imgur.com/2PxpGQb.jpg");
+	/*/*background-image: url("https://i.imgur.com/2PxpGQb.jpg");*/
+	/*background-image: tryckpress.jpg;
 	padding-left: 40px;
-	padding-right: 40px;
-	/*background-color: rgb(179, 145, 229);*/
+	padding-right: 40px;*//*
+	background-color: rgb(179, 145, 229);*/*/
+}
+
+img {
+	background-image: tryckpress.jpg;
+	width: 100%;
 }
 
 a {
@@ -201,13 +207,20 @@ outline: none !important;
  left: 0;
  padding: 1rem;
  background-color: rgb(250, 239, 150);
- text-align: center;
+ text-align: right;
  font: Helvetica;
  font-size: 14pt;
 }
 
 .footer a {
-    text-align: center;
+    text-align: right;
+ 	color: purple;
+    font: Helvetica;
+    font-size: 14pt;
+}
+
+.footer p {
+    text-align: right;
  	color: purple;
     font: Helvetica;
     font-size: 14pt;
