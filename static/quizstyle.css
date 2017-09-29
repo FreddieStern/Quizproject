@@ -168,9 +168,9 @@ outline: none !important;
   position: absolute;
   content: '✔';
   display: inline-block;
-  font-size: 26.66667px;
+  font-size: 20px;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
 }
 .option-input:checked::after {
   -webkit-animation: click-wave 0.65s: none;
