@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA_Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>FredrikasQuiz</title>
-		<link rel="stylesheet" href="/static/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/static/quizstyle.css">
-	</head>
-	<body>
-		<h1>Printquiz</h1>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA_Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FredrikasQuiz</title>
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/quizstyle.css">
+</head>
+<body>
+	<h1>Printquiz</h1>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 <!-- <div class="container">
 	<div class="row">
 		<div class="col-md-4">Kolumn 1</div>
@@ -19,28 +19,28 @@
 		<div class="col-md-4">Kolumn 3</div>
 	</div>
 </div> -->
-	<div class="ingress"> 
-		<p>
-			<br>
-			3 korta quiz om tryckerivärlden
-			<br>
-			<br>
-		</p>
-	</div>
-		<div class="mylist"> 
-			<ul>
-				{% for quiz in quizzes %}
-					<li><a href="{% url 'quiz_page' quiz.quiz_number %}">
-						{{ quiz.name }}
-					</a></li>
-				{% endfor %}
-			</ul>
-		</div>
+<div class="ingress"> 
+	<p>
+		<br>
+		3 korta quiz om tryckerivärlden
 		<br>
 		<br>
-		<div class="footer">
-            <p>© Fredrika Stern 2017</p>        
-            <!-- <a href="fredrika.stern@gmail.com">Kontakt</a> -->
-    </div> 
-		</body>
-		</html>
+	</p>
+</div>
+<div class="mylist"> 
+	<ul>
+		{% for quiz in quizzes %}
+		<li><a href="{% url 'quiz_page' quiz.quiz_number %}">
+			{{ quiz.name }}
+		</a></li>
+		{% endfor %}
+	</ul>
+</div>
+<br>
+<br>
+<div class="footer">
+	<p>© Fredrika Stern 2017</p>        
+	<!-- <a href="fredrika.stern@gmail.com">Kontakt</a> -->
+</div> 
+</body>
+</html>
