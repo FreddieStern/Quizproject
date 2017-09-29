@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
+.body {
+  background-image: url(/static/tryckpress.jpg);
+}
+
+body {
+  background-image: url(/static/cmyk_bg.png);
+}
+
 a {
 	color: white;
 	font-family: Helvetica;
@@ -56,17 +64,9 @@ h4 {
 	text-align: center;
 }
 
-/*img {
-	border: 10px solid #ffff;
-	border-radius: 40px;
-	padding: 5px
-	width: 500px;
-}*/
-
 ul {
   list-style-type: none;
 }
-
 
 .mylist {
 	list-style-type: none;
