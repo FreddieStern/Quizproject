@@ -177,7 +177,7 @@ outline: none !important;
   height: 40px;
   width: 40px;
   position: absolute;
-  content: '✿';
+  content: '✔';
   display: inline-block;
   font-size: 26.66667px;
   text-align: center;
@@ -185,7 +185,7 @@ outline: none !important;
 }
 .option-input:checked::after {
   -webkit-animation: click-wave 0.65s: none;
-  -moz-animation: click-wave 0.65s; none;
+  -moz-animation: click-wave 0.65s: none;
   animation: click-wave 0.65s: none;
   background: #40e0d0;
   content: '';
