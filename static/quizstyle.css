@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
-.body {
-  background-image: url(/static/tryckpress.jpg);
-}
-
 body {
   background-image: url(/static/cmyk_bg.png);
 }
