@@ -2,6 +2,7 @@
 
 body {
   background-image: url(/static/cmyk_bg.png);
+  text-align: center;
 }
 
 a {
