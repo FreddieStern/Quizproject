@@ -95,15 +95,15 @@ ul {
 }
 
 button {
-    background-color: purple;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 24pt;
-    border-radius: 25px;
-    box-shadow: none;
-    outline: 0;
-    border: 0;
+  background-color: purple;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 24pt;
+  border-radius: 25px;
+  box-shadow: none;
+  outline: 0;
+  border: 0;
 }
 
 *{font-family: 'Helvetica', sans-serif;}
@@ -157,7 +157,7 @@ button {
 /*#Too get rid of blue box shadow around button*/
 
 .option-input:focus {
-outline: none !important;
+  outline: none !important;
 }
 .option-input:checked {
   background: purple;
@@ -168,9 +168,9 @@ outline: none !important;
   position: center;
   content: '✔';
   display: inline-block;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
-  line-height: 30px;
+  line-height: 40px;
 }
 .option-input:checked::after {
   -webkit-animation: click-wave 0.65s: none;
@@ -188,32 +188,32 @@ outline: none !important;
 .option-input.radio::after {
   border-radius: 50%;
 }
- 
+
 .footer {
   position: absolute;
- margin-top: 40px;
- right: 0;
- bottom: 0;
- left: 0;
- padding: 3rem;
- background-color: #8e9391;
- text-align: right;
- font: Helvetica;
- font-size: 12pt;
+  margin-top: 40px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3rem;
+  background-color: #8e9391;
+  text-align: right;
+  font: Helvetica;
+  font-size: 12pt;
 }
 
 .footer a {
-    text-align: right;
- 	  color: white;
-    font: Helvetica;
-    font-size: 12pt;
+  text-align: right;
+  color: white;
+  font: Helvetica;
+  font-size: 12pt;
 }
 
 .footer p {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom:10px;
- 	  color: white;
-    font: Helvetica;
-    font-size: 12pt;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom:10px;
+  color: white;
+  font: Helvetica;
+  font-size: 12pt;
 }
